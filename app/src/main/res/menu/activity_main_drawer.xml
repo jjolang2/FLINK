@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mypage"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="마이페이지"
+            />
+        <item
+            android:id="@+id/nav_Tie_up"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="제휴신청" />
+        <item
+            android:id="@+id/nav_Environment_Settings"
+            android:icon="@drawable/ic_menu_share"
+            android:title="환경설정" />
+    </group>
+
+</menu>

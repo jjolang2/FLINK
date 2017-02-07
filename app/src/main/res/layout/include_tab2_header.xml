@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/tab2_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/tab2_1_1"/>
+            <TextView
+                android:text="의류"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/tab2_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/tab2_3_1"
+                />
+            <TextView
+                android:text="뷰티"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/tab2_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/tab2_2_1" />
+            <TextView
+                android:text="디저트"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/tab2_4_1"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/tab2_4_1" />
+            <TextView
+                android:text="메이드"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
