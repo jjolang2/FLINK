@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 
 import com.example.juhyeon.flink.MainActivity;
 import com.example.juhyeon.flink.R;
@@ -15,15 +14,11 @@ import com.example.juhyeon.flink.R;
 
 public class JoinActivity extends AppCompatActivity {
 
-    Button Login, SSjoin, Mjoin;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.joinactivity);
 
-        Login = (Button) findViewById(R.id.login);
-        SSjoin = (Button) findViewById(R.id.SSJoin);
     }
 
     //====================================로그인버튼 -> 메인액티비티====================================
@@ -36,6 +31,5 @@ public class JoinActivity extends AppCompatActivity {
     public void toSignUp(View view){
         Intent intent = new Intent(JoinActivity.this, SignUpActivity.class);
         startActivity(intent);
-        finish();
     }
 }

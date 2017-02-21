@@ -9,8 +9,16 @@
     android:background="@color/White">
 
     <include layout="@layout/include_tab2_header"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tab2_view_fragment">
+
+    </LinearLayout>
 
 
 </LinearLayout>

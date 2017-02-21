@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:srcCompat="@mipmap/check"
+        android:id="@+id/marketphoto_url"
+        android:scaleType="centerInside"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/heart"
+                android:scaleType="centerInside"
+                android:layout_margin="10dp"
+                android:id="@+id/likemarket"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="좋아요수"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/likemarket_num"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/poster_header_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:text="포스터제목"
+                android:textSize="11dp"
+                android:id="@+id/marketname"
+                android:gravity="center_vertical|right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:text="2017.01.07 SAT"
+                android:id="@+id/startdate"
+                android:gravity="center_vertical|right"
+                android:textSize="9dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

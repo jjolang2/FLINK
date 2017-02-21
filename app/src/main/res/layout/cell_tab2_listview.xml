@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dadada"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            app:srcCompat="@mipmap/heart"
+            android:id="@+id/mainimage"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:gravity="right"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/heart"
+                android:id="@+id/imageButton"
+                android:scaleType="centerInside" />
+
+            <TextView
+
+                android:text="36"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:id="@+id/good_count"
+                android:lines="1"
+                android:textSize="14sp"
+                android:gravity="center_vertical|left" />
+
+            <TextView
+                android:text="[지혜짱]"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sellername"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text=" 셰도우립스틱"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="#해시태그"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/hash"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

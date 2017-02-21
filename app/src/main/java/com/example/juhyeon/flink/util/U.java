@@ -1,10 +1,6 @@
 package com.example.juhyeon.flink.util;
 
-import android.content.Context;
 import android.util.Log;
-
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.Volley;
 
 /**
  * Created by Juhyeon on 2017-01-20.
@@ -26,13 +22,4 @@ public class U {
         Log.e("U*","***********************************");
     }
 
-
-
-    RequestQueue requestQueue;
-    public RequestQueue getRequestQueue(Context context)
-    {
-        if( requestQueue == null)
-            requestQueue = Volley.newRequestQueue(context);
-        return requestQueue;
-    }
 }

@@ -14,15 +14,17 @@
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        app:srcCompat="@mipmap/nav_logout" />
+        android:layout_marginTop="30dp"
+        app:srcCompat="@mipmap/nav_logout"
+        android:onClick="navLogin_Onclick" />
 
     <Button
         android:text="로그인"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#00000000"
-        android:id="@+id/Login" />
+        android:id="@+id/Login"
+        android:onClick="navLogin_Onclick" />
 
     <TextView
         android:layout_width="match_parent"

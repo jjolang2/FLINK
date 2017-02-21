@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    >
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:id="@+id/viewPager"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1">
+        </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:text="포스터제목"
+                android:textSize="11dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:text="내용1"
+                android:gravity="center_vertical"
+                android:textSize="9dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 />
+            <TextView
+                android:gravity="center_vertical"
+                android:text="내용2"
+                android:textSize="9dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="내용3"
+                android:gravity="center_vertical"
+                android:textSize="9dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@mipmap/heart"
+                android:scaleType="centerInside"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:text="좋아요수"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

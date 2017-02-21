@@ -1,12 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/White"
+    android:layout_weight="1">
 
-
-    <include layout="@layout/include_tab1_list"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_weight="0">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="@color/Blank"
+            android:layout_marginTop="20dp"
+            android:id="@+id/onpager"
+            android:onClick="onpager"/>
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+           android:layout_weight="0"
+           android:layout_marginTop="20dp">
+
+
+            <include layout="@layout/cell_tab1_poster"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+           <ImageButton
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:gravity="left"
+               app:srcCompat="@mipmap/side_left"
+               android:id="@+id/side_left"
+               android:background="@color/Blank"
+               android:layout_weight="0"
+               android:layout_gravity="left"
+               android:onClick="Side_Left"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/side_right"
+            android:id="@+id/side_right"
+            android:background="@color/Blank"
+            android:layout_weight="0"
+            android:layout_alignParentRight="true" />
+
+            <TextView
+                android:text="● ○ ○ ○"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/curDot"
+                android:textColor="@color/one"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
 </LinearLayout>

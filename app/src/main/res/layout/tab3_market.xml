@@ -8,16 +8,16 @@
     tools:context="com.example.juhyeon.flink.UI.Tab3.MainFragment3">
     >
 
-    <TextView
-        android:text="3번"
+    <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="500dp"/>
-    <TextView
-        android:text="4번"
+        android:layout_height="0dp"
+        android:id="@+id/recyclerview"
+        android:layout_weight="1"/>
+
+    <Button
+        android:text="뿌뿌뿌뿌~"
         android:layout_width="match_parent"
-        android:layout_height="500dp"/>
-    <TextView
-        android:text="5번"
-        android:layout_width="match_parent"
-        android:layout_height="500dp"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbtn"
+        />
 </LinearLayout>

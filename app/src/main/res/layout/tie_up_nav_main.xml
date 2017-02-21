@@ -24,8 +24,6 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
         android:background="@color/navbackground"
-
-
         />
 
 </android.support.v4.widget.DrawerLayout>

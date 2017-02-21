@@ -7,6 +7,7 @@
 
     <color name="White">#ffffff</color>
     <color name="Blank">#00000000</color>
+    <color name="Black">#000000</color>
 
     <color name="navbackground">#D9D16268</color>
 

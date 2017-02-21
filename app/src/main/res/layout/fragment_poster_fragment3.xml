@@ -2,13 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.juhyeon.flink.UI.Tab2.MaidFragment">
+    tools:context="com.example.juhyeon.flink.UI.Tab.PosterFragment3">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="메이드 프래그먼트 리스트뷰"
-        android:background="@color/one"/>
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
