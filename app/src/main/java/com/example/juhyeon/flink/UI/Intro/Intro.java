@@ -9,8 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.juhyeon.flink.MainActivity;
 import com.example.juhyeon.flink.R;
+import com.example.juhyeon.flink.UI.Join.JoinActivity;
 
 public class Intro extends AppCompatActivity {
     private View 	decorView;
@@ -31,7 +31,7 @@ public class Intro extends AppCompatActivity {
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
-                Intent intent = new Intent(Intro.this , MainActivity.class);
+                Intent intent = new Intent(Intro.this , JoinActivity.class);
                 startActivity(intent);
                 finish();
             }
